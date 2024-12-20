@@ -48,7 +48,7 @@ app.use('/', viewsRouter);
 // Iniciar el servidor
 const PORT = 8080;
 server.listen(PORT, () => {
-    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+    console.log(`Servidor escuchando en http://localhost:8080`);
 });
 
 
